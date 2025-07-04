@@ -14,16 +14,18 @@ https://github.com/AILab-CVC/YOLO-World
 图片语义配对
 https://github.com/openai/CLIP
 
-Siamese Network
+聚类方法
+1.Siamese Network
 https://github.com/adambielski/siamese-triplet
 
-CLIP/大模型特征 + 余弦相似度/KNN
+2.CLIP/大模型特征 + 余弦相似度/KNN
 
 
 
 麦克风声音采集
 
-双摄像头（三角测距）
+双摄像头（三角测距）232800/d (mm)
+z = f*b/d
 
 图像分割（DeepLab），分割后图像识别（yolo），未知物聚类（Siamese Network或CLIP+KNN），人工打标签后训练在训练yolo模型，验证训练结果
 
